@@ -8,7 +8,7 @@
 
     kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
+       // label = "KSCAN";
         diode-direction = "col2row";
 
         row-gpios = <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
